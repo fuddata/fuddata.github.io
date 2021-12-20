@@ -1,0 +1,24 @@
+baseurl = "https://fuddata.com/"
+languageCode = "en-us"
+title = "Fuddata Limited"
+
+theme = "hugo-book"
+enableGitInfo = true
+disableKinds = ['taxonomy', 'taxonomyTerm']
+pygmentsStyle = "monokai"
+
+[Params]
+  BookTheme = 'auto'
+  BookToC = true
+  favicon = "img/favicon.ico"
+  BookDateFormat = "January 2, 2006"
+  BookSearch = true
+  BookComments = false
+  BookRepo = 'https://github.com/fuddata/fuddata.github.io'
+  BookPortableLinks = true
+  BookServiceWorker = true
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
